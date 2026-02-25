@@ -1,6 +1,229 @@
 <html>
     <head></head>
     <body>
-        <h1>hello world</h1>
+        <!-- section 1 -->
+        <h1 style="text-align: center; color: 567a98;">John Doe Portfolio</h1>
+        <p style="text-align: center; color: 567a98;">Professional Web Developer</p>
+        <br>
+        <br>
+
+        <!-- section 2 -->
+        <h2 style="color: 567a98;">About Me</h2>
+        <br>
+        <br>
+        <table cellpadding="10">
+            <tr>
+                <td style="text-align: center;" width="25%" rowspan="5"><img width="200" src="images/professionalimage.jfif" alt="professionalimage">
+                <br>
+                <br>
+                <img width="50" src="images/facebooklogo.jfif" alt="fcebooklogo">
+                <img width="50" src="images/linkedinlogo.jfif" alt="linkedinlogo">
+                <img width="50" src="images/instagramlogo.jfif" alt="instagramlogo">
+                <img width="50" src="images/githublogo.jfif" alt="githublogo">
+                </td>
+                <td>Hello! I'm John Doe, a passionate web developer with over 5 years of experience in creating innovative digital solutions. I specialize in full-stack development and have a keen interest in modern web technologies.
+                </td>
+            </tr>
+            <tr>
+                <td>My journey in web development started during my college years, and since then I've been continuously learning and adapting to new technologies. I believe in writing clean, efficient code and creating user-friendly interfaces.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 style="background-color: def0fc;">Skills</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <ul>
+                        <li><a href="">HTML5</a></li>
+                        <li><a href="">CSS3</a></li>
+                        <li><a href="">JavaScript</a></li>
+                        <li><a href="">React.js</a></li>
+                        <li><a href="">Angular</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <!-- section 3 -->
+         <h2 style="color: 567a98;">Experience Timeline</h2>
+         <br>
+         <br>
+         <table border="1" width="100%" cellpadding="10">
+            <thead  style="background-color: 1d6ea5; color: white;">
+                <tr>
+                    <th>Company</th>
+                    <th>Logo</th>
+                    <th>Role</th>
+                    <th>Key Achievements</th>
+                    <th>Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">TechCorp Solutions </td>
+                    <td rowspan="2"><img width="100" src="images/img1.jfif" alt="techcorp_logo"></td>
+                    <td>Senior Full Stack Developer</td>
+                    <td>
+                        <ul>
+                            <li>Lead development of web applications</li>
+                            <li>Mentor junior developers</li>
+                            <li>Architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>Jan 2023 - Present</td>
+                </tr>
+
+                <tr>
+                    <td>Full Stack Developer</td>
+                    <td>
+                        <ul>
+                            <li>Developed responsive web applications</li>
+                            <li>Collaborated with design teams</li>
+                            <li>Optimized application performance</li>
+                        </ul>
+                    </td>
+                    <td>2021 - 2023</td>
+                </tr>
+
+                <tr>
+                    <td>Digital Agency Pro </td>
+                    <td><img width="100" src="images/img2.jfif" alt="digital_agency_logo"></td>
+                    <td>Frontend Developer</td>
+                    <td>
+                        <ul>
+                            <li>Built user interfaces from mockups</li>
+                            <li>Implemented responsive designs</li>
+                            <li>Conducted code reviews</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+
+                <tr>
+                    <td>Web Design Studio </td>
+                    <td><img width="100" src="images/img3.jfif" alt="web_design_logo"></td>
+                    <td>Junior Web Developer</td>
+                    <td>
+                        <!--update-->
+                        <ul>
+                            <li>Built user interfaces from mockups</li>
+                            <li>Implemented responsive designs</li>
+                            <li>Conducted code reviews</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="5">Total Experience: 5+ years in web development</td>
+            </tfoot>
+         </table>
+         <br>
+         <br>
+
+        <!-- section 4 -->
+         <h2 style="color: 567a98;">Contact Me</h2>
+         <p>Feel free to reach out to me using the form below. I'd love to hear from you!</p> 
+         <br>
+         <br>
+         <form>
+            <!-- section 4.1 -->
+            <fieldset>
+            <legend>Personal Information</legend>
+            <table width="100%">
+            <tr>
+                <td><label for="fname">First Name:*</label></td>
+                <td><input required id="fname" type="text" name="fname"></td>
+                <td><label for="lname">Last Name:*</label></td>
+                <td><input required id="lname" type="text" name="lname"></td>
+            </tr>
+
+            <tr>
+                <td><label required for="Eadd">Email Address:*</label></td>
+                <td><input id="Eadd" type="text" name="Eadd"></td>
+                <td><label for="Pnum">Phone Nuumber:</label></td>
+                <td><input id="Pnum" type="number" name="Pnum"></td>
+            </tr>
+
+            <tr>
+                <td><label for="PreferredMeetingDate">Preferred Meeting Date:</label></td>
+                <td><input id="PreferredMeetingDate" type="date" name="PreferredMeetingDate"></td>
+                <td><label for="PestTimetoContact">Pest Time to Contact:</label></td>
+                <td><input id="PestTimetoContact" type="time" name="PestTimetoContact"></td>
+            </tr>
+            <!-- section 4.2 -->
+            </table>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Project Details</legend>
+            <table width="100%">
+                <tr>
+                <td><label for="ProjectType">Project Type:*</label></td>
+                <td><input required id="ProjectType" type="text" name="ProjectType"></td>
+                <td><label for="ProjectDescription">Project Description:*</label></td>
+                <td><textarea required id="ProjectDescription" name="ProjectDescription"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label>Budget Range:</label>
+                        <br>
+                        <input id="p1" type="radio" name="BudgetRange" value="Under $5,000">
+                        <label for="p1">Under $5,000</label>
+                        <br>
+                        <input id="p2" type="radio" name="BudgetRange" value="$5,000 - $10,000">
+                        <label for="p2">$5,000 - $10,000</label>
+                        <br>
+                        <input id="p3" type="radio" name="BudgetRange" value="$10,000 - $25,000">
+                        <label for="p3">$10,000 - $25,000</label>
+                        <br>
+                        <input id="p4" type="radio" name="BudgetRange" value="Over $25,000">
+                        <label for="p4">Over $25,000</label>
+                    </td>
+                    <td colspan="2">
+                        <label>Services Required (Check all that apply)</label>
+                        <br>
+                        <input id="s1" type="checkbox" name="ServicesRequired" value="UI/UX Design">
+                        <label for="s1">UI/UX Design</label>
+                        <br>
+                        <input id="s2" type="checkbox" name="ServicesRequired" value="Frontend Development">
+                        <label for="s2">Frontend Development</label>
+                        <br>
+                        <input id="s3" type="checkbox" name="ServicesRequired" value="Backend Development">
+                        <label for="s3">Backend Development</label>
+                        <br>
+                        <input id="s4" type="checkbox" name="ServicesRequired" value="Hosting & Deployment">
+                        <label for="s4">Hosting & Deployment</label>
+                        <input id="s4" type="checkbox" name="ServicesRequired">
+                        <br>
+                        <label for="s4"><input id="s4" type="checkbox" name="ServicesRequired" value="Hosting & Deployment">
+                        <label for="s4">Hosting & Deployment</label></label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="options">How did you hear about me?</label>
+                        <select id="options" name="options">
+                        <option disabled selected>-- Select Source </option>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>Google</option>
+                        <option>Friend</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+            <br>
+            <!-- section 4.3 -->
+            <input style="background-color: blue; color: white;" value="Send Message" type="submit">
+            <input style="background-color: red; color: white;" value="Clear Form" type="reset">
+         </form>
+         
     </body>
 </html>
